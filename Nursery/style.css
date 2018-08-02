@@ -1,0 +1,83 @@
+html {
+  background: rgb(45,112,253);
+  background: linear-gradient(0deg, rgba(45,112,253,1) 0%, rgba(34,193,195,1) 100%);
+  min-height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #0A090C;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.store-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  width: 250px;
+  border-width: 0px;
+  border-color: #0A090C;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 2.5%;
+}
+
+.plant-image {
+  height: 200px;
+}
+
+.navigation {
+    background-color: rgba(58, 58, 58, 0.4);
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navList a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navList a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.navList a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.plantPic{
+height: auto;
+  max-width: 25%;
+float: left;
+  clear: both;
+  margin: 15px;
+}
+.plantData{
+float: right;
+  width: 65%;
+}

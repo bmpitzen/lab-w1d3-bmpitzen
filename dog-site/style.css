@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+background-color: #F2F2F2;
+}
+body {
+  font-family: Open Sans, sans-serif;
+/*   background-color: white; */
+}
+
+
+h2 {
+  padding: 20px 55px;
+}
+h3 {
+  margin: 10px;
+}
+h4 {
+  margin: 0px 10px;
+}
+p {
+  margin: 0px 0px 10px 55px;
+}
+
+.site-header {
+  max-width: 70%;
+  background-color: #0D3E75;
+  border-bottom: 5px solid #8FD7E8;
+  text-align: left;
+  margin: auto;
+  padding: 55px;
+}
+
+h1 {
+  color: white;
+}
+.container{
+  max-width: 70%;
+  background-color: white;
+  margin: auto;
+}
+.search {
+  background-color: #EFECED;
+  padding: 10px;
+  margin: 10px 55px;
+}
+.animal__traits{
+margin: 5px 2px;
+}
+.animal__trait {
+  font-size: .8em;
+  background-color: #93DDEF;
+  border-radius: 10px;
+  padding: 0px 7px;
+  display: inline-block;
+  margin: 2px;
+}
+.search__choice {
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 0px 35px 0px 0px;
+}
+label {
+  display: block;
+  margin: 5px;
+}
+.search__choice input{
+margin: 5px;
+}
+.animal img {
+  max-width: 90%;
+}
+
+.row{
+/*   dispspotlay: inline-block; */
+  margin-left: 55px;
+}
+.animal{
+  max-width: 32%;
+  display: inline-block;
+  vertical-align: top;
+}
+.animal__name{
+  font-family: Oswald, Open Sans, sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  max-width:70%;
+  font-family: Oswald, Open Sans, sans-serif;
+  height:300px;
+  margin: 0 auto;
+  font-size: 3em;
+}
+footer a{
+color: white;
+  text-decoration: none;
+  text-align: center;
+vertical-align: middle;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer__block--location{
+  width: 33.3%;
+  height: 300px;
+background:
+     linear-gradient(rgba(30, 9, 110, 0.4),rgba(30, 9, 110, 0.4)),
+     url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805)
+     no-repeat;
+  float:left;
+  background-size: cover;
+    text-align: center;
+vertical-align: middle;
+  line-height:300px;
+}
+.footer__block--donate {
+width: 33.3%;
+  height: 300px;
+background:
+     linear-gradient(rgba(30, 9, 110, 0.4),rgba(30, 9, 110, 0.4)),
+     url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137)
+     no-repeat;
+  float:left;
+  background-size: cover;
+    text-align: center;
+vertical-align: middle;
+  line-height:300px;
+}
+.footer__block--volunteer{
+width: 33.3%;
+  height: 300px;
+background:
+     linear-gradient(rgba(30, 9, 110, 0.4),rgba(30, 9, 110, 0.4)),
+     url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718)
+     no-repeat;
+  float:left;
+  background-size: cover;
+    text-align: center;
+vertical-align: middle;
+  line-height:300px;
+}
